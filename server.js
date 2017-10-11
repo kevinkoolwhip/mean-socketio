@@ -46,9 +46,9 @@ var i = 0;
 setInterval(function() {
 	/*var options = {
 		rejectUnauthorized: false,
-		url: 'https://35.196.185.104/apis/extensions/v1beta1/namespaces/default/deployments',
+		url: 'https://test/apis/extensions/v1beta1/namespaces/default/deployments',
 		headers: {
-			'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJkZWZhdWx0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6ImRlZmF1bHQtdG9rZW4tMGdtMWgiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoiZGVmYXVsdCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6ImMzYjk1Zjg0LTllZTAtMTFlNy05MGZiLTQyMDEwYThlMGZlNyIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDpkZWZhdWx0OmRlZmF1bHQifQ.GTDTRuul_9YGVVs5ss9ZAMJaGT2_2ulwypuSNUfXQLNr5xJSytwlm2qbPi6j54m5Yk29scMoGXtWJqjEQDMl3bWoddkrw3PIKi-3IiQ8aqHb3Cu-1ztUzk3M9fDj8_Jibzn8uDr80D1hAG7tytWbsPEqu5x9bJtbzgmjhMMYpKZyxTS_tnQTYWiVtxZ8vVXiTAvsqO-RSNoflNODICJTBoXTuY8nFdF4DVR4dw3n3WyAxIJnCzftLJ5nUJeC7cykRpXnR3eQ9KcJ3HxOkMhgW3rWI0Pz6tsdFCMZXGfbclhNR1QjvSihhtbjBLe_b1194KTxSL7DlvMWc7tccH4oMQ',
+			'Authorization': 'Bearer test',
 			'Accept': 'application/json'
 		}
 	};
