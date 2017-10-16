@@ -1,3 +1,9 @@
+<h2>Kubernetes View</h2>
+<br><br>
+<div class="input-group">
+    <input type="text" ng-model="search" ng-change="refreshData(search)" placeholder="Search..." >
+</div>
+<br>
 <div>
-    <div id="grid1" ui-grid="{ data: myData }" class="grid"></div>
+    <div id="grid1" ui-grid="gridOptions" class="grid" ui-grid-resize-columns></div>
 </div>

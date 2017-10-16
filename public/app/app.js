@@ -3,5 +3,7 @@ angular.module('userApp', [
 	'app.routes',
 	'socketIO',
 	'mainCtrl',
-	'ui.grid'
+	'ui.grid',
+	'ui.grid.resizeColumns',
+	'httpService'
 	]);
